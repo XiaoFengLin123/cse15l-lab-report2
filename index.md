@@ -36,6 +36,10 @@ class ChatServer {
 }
 
 ```
-
+**Image One of using `/add-message`** 
 ![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/666f8c3b-914f-4cef-8479-1acd9f66a760)
+
+**Image Two of using `/add-message`**
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/b7648692-a7a0-45f4-b59f-c14b595cc117)
+
 
