@@ -70,10 +70,10 @@ Following this specific request, we concatenate `Jake From StateFarm: Hi, my nam
 
 **Part 2**
 
-On the command line of your computer, run ls with the absolute path to the private key for your SSH key for logging into ieng6.
+On the command line of your computer, run `ls` with the absolute path to the private key for your `SSH` key for logging into `ieng6`.
 ![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/ddc24d7a-c7f7-4680-83b9-a905251bf67a)
 
-On the command line of the ieng6 machine, run ls with the absolute path to the public key for your SSH key for logging into ieng6 (this is the one you copied to your account on ieng6 using ssh-copy-id, so it should be a path on ieng6's file system).
+On the command line of the `ieng6` machine, run `ls` with the absolute path to the public key for your `SSH` key for logging into `ieng6` (this is the one you copied to your account on `ieng6` using `ssh-copy-id`, so it should be a path on `ieng6`'s file system).
 ![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/990d27c9-2bed-4865-8865-a9c043f7ec29)
 
 
@@ -82,5 +82,5 @@ A terminal interaction where you log into your ieng6 account without being asked
 
 **Part 3** 
 
-I learned about the importance of SSH keys and how they can be used to allow secure and passwordless logins to remote systems. I also learned about the SCP (Secure Copy Protocol) command, which allows me to transfer files securely between my local computer and a remote server. This is especially useful for moving my code to and from the ieng6 server, allowing me  to work locally and test my code in a remote environment. 
+I learned about the importance of `SSH` keys and how they can be used to allow secure and passwordless logins to remote systems. I also learned about the `SCP` (Secure Copy Protocol) command, which allows me to transfer files securely between my local computer and a remote server. This is especially useful for moving my code to and from the `ieng6` server, allowing me  to work locally and test my code remotely. 
 
