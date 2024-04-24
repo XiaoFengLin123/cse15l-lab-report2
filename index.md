@@ -37,7 +37,7 @@ class ChatServer {
 
 ```
 **Image One of using `/add-message`** 
-![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/4af51412-d66a-4df2-90c7-c41d0420b946)
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/93ea347c-b8b7-412f-8898-7c072846340f)
 
 Which methods in your code are called?
 
@@ -53,7 +53,9 @@ How do the values of any relevant fields of the class change from this specific 
 The values of the fields of this class change from this specific request. The original request was: `http://localhost:5678/add-message?s=Hello World!&user=xil245`. Upon this request, the `public String handleRequest(URI url)` method was called and concatenated the user's name followed by a semicolon with a space `": "` and the messages, followed by a newline character. All of this is assigned to the field `String Chatlog` which holds the String value `xil245: Hello World!`
 
 **Image Two of using `/add-message`**
-![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/93ea347c-b8b7-412f-8898-7c072846340f)
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/51b967b8-88bc-48e6-80f9-e1d626aba38e)
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/c84530f6-0476-4eb4-8f0c-27386b2e4fe7)
+
 
 
 
