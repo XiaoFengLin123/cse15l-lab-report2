@@ -53,7 +53,7 @@ How do the values of any relevant fields of the class change from this specific 
 The values of the fields of this class change from this specific request. The original request was: `http://localhost:5678/add-message?s=Hello World!&user=xil245`. Upon this request, the `public String handleRequest(URI url)` method was called and concatenated the user's name followed by a semicolon with a space `": "` and the messages, followed by a newline character. All of this is assigned to the field `String Chatlog` which holds the String value `xil245: Hello World!`
 
 **Image Two of using `/add-message`**
-![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/51b967b8-88bc-48e6-80f9-e1d626aba38e)
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/342b13fd-a92c-480b-af14-4d8f0060b1a6)
 ![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/c84530f6-0476-4eb4-8f0c-27386b2e4fe7)
 
 
