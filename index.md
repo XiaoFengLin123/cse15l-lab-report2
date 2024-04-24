@@ -36,3 +36,6 @@ class ChatServer {
 }
 
 ```
+
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/666f8c3b-914f-4cef-8479-1acd9f66a760)
+
