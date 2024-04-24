@@ -53,6 +53,15 @@ How do the values of any relevant fields of the class change from this specific 
 The values of the fields of this class change from this specific request. The original request was: `http://localhost:5678/add-message?s=Hello World!&user=xil245`. Upon this request, the `public String handleRequest(URI url)` method was called and concatenated the user's name followed by a semicolon with a space `": "` and the messages, followed by a newline character. All of this is assigned to the field `String Chatlog` which holds the String value `xil245: Hello World!`
 
 **Image Two of using `/add-message`**
-![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/b7648692-a7a0-45f4-b59f-c14b595cc117)
+![image](https://github.com/XiaoFengLin123/cse15l-lab-report2/assets/146484956/93ea347c-b8b7-412f-8898-7c072846340f)
 
 
+
+Which methods in your code are called?
+The `/add-message` uses the same method, `public String handleRequest(URI URL)`, within the Handler class. The resulting figure is concatenated to `Chatlog`, which stores all of the messages and pathways of the type `/add-message.s=<string>&user=<string>`.
+
+What are the relevant arguments to those methods, and the values of any relevant fields of the class?
+The `public String handleRequest(URI url)` method uses `URI url` as it's argument. It is responsible for handling URLs within the `URI` library. Within the same class, I also have a Type String Variable named `Chatlog` for concatenating and displaying the method's outputs. Chatlog is a field within the `Handler` class, used to concatenate all requests and update them whenever someone tries to use the path `/add-message.s=<string>&user=<string>`.The string followed by `"s="` takes in the username Jake From Statefarm, followed by a semicolon with a space `": "`, and the messages are followed by a newline character Resulting in `Jake From StateFarm: Hi my name is Jake`. 
+
+How do the values of any relevant fields of the class change from this specific request? If no values got changed, explain why.
+Following this specific request, we concatenate `Jake From StateFarm: Hi, my name is Jake` to `Chatlog`, which results in a display of the previous commands and changes on top of the new commands. If I were to apply the same commands, it would continue to add the same message, thus increasing the `Chatlog`, and I would be able to see the changes live on my local computer.  
